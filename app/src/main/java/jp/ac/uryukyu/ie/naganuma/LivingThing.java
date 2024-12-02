@@ -13,6 +13,10 @@ public class LivingThing {
         this.dead = false;
     }
 
+    public int getAttack() {
+        return attack;
+    }
+
     public boolean isDead() {
         return dead;
     }
